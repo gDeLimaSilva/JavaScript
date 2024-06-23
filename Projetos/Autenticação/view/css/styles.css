@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #90EE90;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a :visited {
+    color: #4D7019;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+.h1-home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: 3px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    padding: 12px 7px;
+    text-align: center;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #3b663b;
+}
+
+.data-container {
+    width: 420px;
+    background: #4D7019;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.data-container h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.data-container .input-container {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-container input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 20px 0 45px;
+}
+
+.input-container input::placeholder {
+    color: #fff;
+}
+
+.input-container i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+}
+
+.register {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.p-container {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}

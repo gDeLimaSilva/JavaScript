@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="scripts/alterar.js" defer></script>
+    <title>Alterar Senha</title>
+</head>
+
+<body>
+    <div class="data-container">
+        <main>
+            <form id="alterarForm">
+                <h2>Alterar Senha</h2>
+                <p class="p-container">Insira seu email, sua senha atual e sua nova senha</p>
+                <div class="input-container">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <i class='bx bx-envelope'></i>
+                </div>
+                <div class="input-container">
+                    <input type="password" name="senhaAtual" placeholder="Senha Atual" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="input-container">
+                    <input type="password" name="novaSenha" placeholder="Nova Senha" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <button class="btn" type="submit">Alterar</button>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
