@@ -2,7 +2,7 @@ Projeto feito usando HTML, CSS, JavaScript, NodeJS e PostgresSQL.
 
 Se trata de um sistema de login e cadastro, que além disso, permite a exclusão da conta e alteração da senha.
 
-Recursos usados:
+Pacotes usados:
 - Nodemon (reinicia automaticamente a aplicação quando
 uma alteração é feita nos arquivos durante o desenvolvimento);
 - Express (configuração de rotas);
